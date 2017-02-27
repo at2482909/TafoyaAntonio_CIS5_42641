@@ -7,9 +7,30 @@
 /* 
  * File:   main.cpp
  * Author: Anthony
- *
+ *Problem #7
+ * 
+ * Directions:Write a program that prints out C S ! in large block letters inside a border
+of *s followed by two blank lines then the message Computer Science is
+Cool Stuff. The output should look as follows:
+*****************************************************
+C C C S S S S !!
+C C S S !!
+C S !!
+C S !!
+C S S S S !!
+C S !!
+C S !!
+C C S S
+C C C S S S S OO
+*****************************************************
+Computer Science is Cool Stuff!!!
+ * 
+ * 
+ * 
  * Created on February 26, 2017, 7:18 PM
  */
+
+
 
 #include <iostream>
  using namespace std;
