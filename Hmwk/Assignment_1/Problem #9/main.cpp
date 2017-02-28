@@ -29,17 +29,25 @@ distance acceleration time2
 using namespace std;
 
 int main() {
-    int distance, covered_distance, xtime, acceleration;
-    //Here is where I establish values and variables.
-    acceleration = 32 * xtime;
-    distance = (acceleration) * xtime^2;
+    int distance, covered_distance, ntime, acceleration;
+    //Here is where I establish variables.
+   
     
     
   cout << "This program will calculate the distance covered from a free falling object.\n";
-  cout << "To calculate how far it'll go depends on time in secs.\n";
+  cout << "To calculate how far it'll go depends on the entered time in seconds.\n";
+  cout << "For Distance is acceleration times time-squared all divided by two.";
+  cout << "Acceleration is already accounted for because of gravity.\n";       
   cout << "Put in a number, then hit enter, this number will account for seconds.\n";
-  cin >> xtime;
-  cout << distance;
+  cin >> ntime;
+  acceleration = 34 * ntime;
+  distance = (acceleration) * (ntime * ntime);
+  covered_distance = distance / 2;
+  cout << "This is the distance in feet:";
+  cout << covered_distance;
+  cout << "ft.\n";
+  
+  
     // Here is where 
     
                     
