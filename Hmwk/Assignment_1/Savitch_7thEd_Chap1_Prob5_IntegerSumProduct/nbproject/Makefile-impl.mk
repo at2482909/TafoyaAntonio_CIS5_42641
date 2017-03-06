@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Problem #5
+PROJECTNAME=Savitch_7thEd_Chap1_Prob5_IntegerSumProduct
 
 # Active Configuration
 DEFAULTCONF=Debug

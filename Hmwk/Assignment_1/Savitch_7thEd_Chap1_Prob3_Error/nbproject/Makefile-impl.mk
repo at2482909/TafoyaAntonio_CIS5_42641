@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Problem #3
+PROJECTNAME=Savitch_7thEd_Chap1_Prob3_Error
 
 # Active Configuration
 DEFAULTCONF=Debug

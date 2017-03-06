@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=problem__6
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/problem__6
+CND_ARTIFACT_NAME_Debug=savitch_7thed_chap1_prob6_syntaxerrors
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/savitch_7thed_chap1_prob6_syntaxerrors
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=problem#6.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/problem#6.tar
+CND_PACKAGE_NAME_Debug=savitch7thedchap1prob6syntaxerrors.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/savitch7thedchap1prob6syntaxerrors.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=problem__6
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/problem__6
+CND_ARTIFACT_NAME_Release=savitch_7thed_chap1_prob6_syntaxerrors
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/savitch_7thed_chap1_prob6_syntaxerrors
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=problem#6.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/problem#6.tar
+CND_PACKAGE_NAME_Release=savitch7thedchap1prob6syntaxerrors.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/savitch7thedchap1prob6syntaxerrors.tar
 #
 # include compiler specific variables
 #
