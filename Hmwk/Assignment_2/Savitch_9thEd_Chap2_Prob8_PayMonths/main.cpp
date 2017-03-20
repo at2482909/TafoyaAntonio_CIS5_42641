@@ -15,7 +15,7 @@
  using namespace std;
  int main( )
  {
- double Bill = 1000;
+ double Bill = 1000,InterestPaid;
  
  int count = 0;
  cout << "This program tells you how long it takes\n"
@@ -23,17 +23,18 @@
  << "monthly payments of 50$ plus monthly interest.\n"
  << "Also tell how much was spent on interest"
  << "The interest rate is 1.5% per month.\n";
- while (Bill > 0)
+ while ((Bill > 0) && (InterestPaid > 0) )
  {
  Bill = (Bill) - 50 + (0.015 * Bill);
  
+         
  count++;
  }
  cout << "After " << count << " months,\n";
  cout.setf(ios::fixed);
  cout.setf(ios::showpoint);
  cout.precision(2);
- cout << "your balance due will be paid off.\n"
- << count*0.015 << " $ was spent on interest." << endl;
+ cout << "your balance due will be paid off.\n";
+
  return 0;
  }
