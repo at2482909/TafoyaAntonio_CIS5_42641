@@ -21,21 +21,22 @@ int main() {
     cin >> weight;
     cout << "Now, please enter your height in inches: \n";
     cin >> height;
-    BMI = weight * 703 / (height * height);
+    BMI = (weight * 703) / (height * height);
 
-    if ((BMI >= 18.5) || (BMI <= 25 )) {
+    if ((BMI >= 18.5) && (BMI <= 25 )) {
         cout << "Weight is considered optimal\n";
         cout << "Your BMI is:  \n" << BMI << "." << endl;
     }
-    else if (BMI > 18.5) {
+    else if (BMI < 18.5) {
         cout << "The index defines you as underweight, your BMI is:  \n";
         cout << BMI << endl;
     }
-    else if (25 < BMI)
-    {
-        cout << " overweight";
+    else if  ( BMI > 25 )
+    
+    { cout << " overweight";
         cout << BMI << endl;
     }
+ 
     return 0;
 
 }
